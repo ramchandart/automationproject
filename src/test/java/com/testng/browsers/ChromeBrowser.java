@@ -9,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
- * @author Raam
+ * @author rcrao
  *
  */
 public class ChromeBrowser {
