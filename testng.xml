@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+	<parameter name="appURL" value="https://www.facebook.com" />
+	<parameter name="browser" value="chrome" />
+
+	<test name="Test">
+		<classes>
+			<class name="com.testng.scripts.FB_Login_Test" />
+			<class name="com.testng.scripts.FB_UserName_Btn_Test" />
+			<class name="com.testng.scripts.FB_Home_Btn_Test" />
+			<class name="com.testng.scripts.FB_Friends_Btn_Test" />
+		</classes>
+	</test> <!-- Test close tag -->
+
+</suite> <!-- Suite close tag -->
