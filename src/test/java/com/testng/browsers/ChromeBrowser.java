@@ -27,7 +27,7 @@ public class ChromeBrowser {
 			driver.navigate().to(appURL);
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
+                }
 		return driver;
 
 	}
