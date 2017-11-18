@@ -17,7 +17,7 @@ public class FB_Login_Test extends BrowserBaseSetup {
 	
 	@BeforeClass
 	public void beforeClass() {
-		System.out.println("TestScript ::::::"+FB_Login_Test.class);
+		System.out.println("TestScript :"+FB_Login_Test.class);
 		driver=super.driver;
 	}
 
