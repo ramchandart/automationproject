@@ -24,7 +24,6 @@ public class FB_Login_Test extends BrowserBaseSetup {
 	@Test(dataProvider = "testData")
 	public void testFBLoginPage(String emailId, String password) throws InterruptedException {
 
-		//new LoginPage(driver).loginFB(emailId, password);
 		PageFactory.initElements(driver, LoginPage.class).loginFB(emailId, password);
 		Thread.sleep(3000);
 
