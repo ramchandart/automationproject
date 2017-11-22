@@ -13,6 +13,7 @@
 		</repository>
 	</repositories>
 
+	<!-- Plugin needed to compile source code -->
 	<build>
 		<plugins>
 			<!-- Compiler plug-in -->
